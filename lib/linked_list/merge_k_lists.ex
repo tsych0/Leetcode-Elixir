@@ -8,7 +8,7 @@ defmodule LinkedList.MergeKLists do
     lists
     |> Enum.chunk_every(2)
     |> Enum.map(fn
-      [l1, l2] -> MergeTwoLists.merge_two_lists(l1, l2)
+      [l1, l2] -> LinkedList.MergeTwoLists.merge_two_lists(l1, l2)
       [l] -> l
     end)
     |> merge_k_lists()
