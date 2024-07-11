@@ -1,4 +1,4 @@
-defmodule SortedArrayToBst do
+defmodule Tree.SortedArrayToBst do
   @spec sorted_array_to_bst(nums :: [integer]) :: TreeNode.t() | nil
   def sorted_array_to_bst(nums) do
     size = length(nums)

@@ -1,4 +1,4 @@
-defmodule MaxProfit do
+defmodule Arrays.MaxProfit do
   @spec max_profit(prices :: [integer]) :: integer
   def max_profit(prices) do
     max_profit(prices, hd(prices), 0)

@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/rotate-list/
-defmodule RotateRight do
+defmodule LinkedList.RotateRight do
   @spec rotate_right(head :: ListNode.t() | nil, k :: integer) :: ListNode.t() | nil
   def rotate_right(nil, _), do: nil
 

@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/add-two-numbers/
-defmodule AddTwoNumbers do
+defmodule LinkedList.AddTwoNumbers do
   @spec add_two_numbers(l1 :: ListNode.t() | nil, l2 :: ListNode.t() | nil) :: ListNode.t() | nil
   def add_two_numbers(l1, l2), do: add_two_numbers(l1, l2, false)
 

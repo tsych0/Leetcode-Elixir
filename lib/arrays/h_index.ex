@@ -1,4 +1,4 @@
-defmodule HIndex do
+defmodule Arrays.HIndex do
   @spec h_index(citations :: [integer]) :: integer
   def h_index(citations) do
     n = length(citations)

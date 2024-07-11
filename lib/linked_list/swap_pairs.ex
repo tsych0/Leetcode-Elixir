@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/swap-nodes-in-pairs/
-defmodule SwapPairs do
+defmodule LinkedList.SwapPairs do
   @spec swap_pairs(head :: ListNode.t() | nil) :: ListNode.t() | nil
   def swap_pairs(nil), do: nil
   def swap_pairs(head), do: swap_pairs(head, head.next)

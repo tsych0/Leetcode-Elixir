@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-defmodule RemoveNthFromEnd do
+defmodule LinkedList.RemoveNthFromEnd do
   @spec remove_nth_from_end(head :: ListNode.t() | nil, n :: integer) :: ListNode.t() | nil
   def remove_nth_from_end(head, n) do
     front = drop(head, n)

@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/binary-tree-inorder-traversal/
-defmodule InorderTraversal do
+defmodule Tree.InorderTraversal do
   @spec inorder_traversal(root :: TreeNode.t() | nil) :: [integer]
   def inorder_traversal(root) do
     inorder_traversal(root, []) |> Enum.reverse()

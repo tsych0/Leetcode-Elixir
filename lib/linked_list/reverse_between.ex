@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/reverse-linked-list-ii/
-defmodule ReverseBetween do
+defmodule LinkedList.ReverseBetween do
   @spec reverse_between(head :: ListNode.t() | nil, left :: integer, right :: integer) ::
           ListNode.t() | nil
   def reverse_between(head, 1, right) do

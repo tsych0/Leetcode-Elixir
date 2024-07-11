@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 # https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
-defmodule DeleteDuplicates do
+defmodule LinkedList.DeleteDuplicates do
   @spec delete_duplicates(head :: ListNode.t() | nil) :: ListNode.t() | nil
   def delete_duplicates(%{val: val, next: next}) when next != nil do
     case next do

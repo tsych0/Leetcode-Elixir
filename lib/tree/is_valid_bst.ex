@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/validate-binary-search-tree/
-defmodule IsValidBst do
+defmodule Tree.IsValidBst do
   @spec is_valid_bst(root :: TreeNode.t() | nil) :: boolean
   def is_valid_bst(root) do
     root |> inorder_check() |> is_list()

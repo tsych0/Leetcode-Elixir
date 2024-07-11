@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/longest-substring-without-repeating-characters/
-defmodule LengthOfLongestSubstring do
+defmodule HashTable.LengthOfLongestSubstring do
   @spec length_of_longest_substring(s :: String.t()) :: integer
   def length_of_longest_substring(s) do
     length_of_longest_(s, s, %MapSet{}, 0)

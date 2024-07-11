@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-defmodule ZigzagLevelOrder do
+defmodule Tree.ZigzagLevelOrder do
   @spec zigzag_level_order(root :: TreeNode.t() | nil) :: [[integer]]
   def zigzag_level_order(nil), do: []
 

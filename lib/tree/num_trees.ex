@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/unique-binary-search-trees/
-defmodule NumTrees do
+defmodule Tree.NumTrees do
   @spec num_trees(n :: integer) :: integer
   def num_trees(n) do
     dp = %{0 => 1, 1 => 1}

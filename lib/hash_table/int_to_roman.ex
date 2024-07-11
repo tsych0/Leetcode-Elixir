@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/integer-to-roman/
-defmodule IntToRoman do
+defmodule HashTable.IntToRoman do
   @mapping [
     {1000, "M"},
     {900, "CM"},

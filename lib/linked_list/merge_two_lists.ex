@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/merge-two-sorted-lists/
-defmodule MergeTwoLists do
+defmodule LinkedList.MergeTwoLists do
   @spec merge_two_lists(list1 :: ListNode.t() | nil, list2 :: ListNode.t() | nil) ::
           ListNode.t() | nil
   def merge_two_lists(list1, list2) do

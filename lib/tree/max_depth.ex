@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/maximum-depth-of-binary-tree/
-defmodule MaxDepth do
+defmodule Tree.MaxDepth do
   @spec max_depth(root :: TreeNode.t() | nil) :: integer
   def max_depth(nil), do: 0
 

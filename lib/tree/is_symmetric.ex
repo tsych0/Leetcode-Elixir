@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/symmetric-tree/
-defmodule IsSymmetric do
+defmodule Tree.IsSymmetric do
   @spec is_symmetric(root :: TreeNode.t() | nil) :: boolean
   def is_symmetric(nil), do: true
 

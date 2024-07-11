@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/reverse-nodes-in-k-group/
-defmodule ReverseKGroup do
+defmodule LinkedList.ReverseKGroup do
   @spec reverse_k_group(head :: ListNode.t() | nil, k :: integer) :: ListNode.t() | nil
   def reverse_k_group(head, k) do
     cond do

@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/merge-k-sorted-lists/
-defmodule MergeKLists do
+defmodule LinkedList.MergeKLists do
   @spec merge_k_lists(lists :: [ListNode.t() | nil]) :: ListNode.t() | nil
   def merge_k_list([]), do: nil
   def merge_k_lists([node]), do: node

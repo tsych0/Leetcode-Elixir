@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/two-sum/
-defmodule TwoSum do
+defmodule HashTable.TwoSum do
   @spec two_sum(nums :: [integer], target :: integer) :: [integer]
   def two_sum(nums, target) do
     two_sum(0, nums, %{}, target)

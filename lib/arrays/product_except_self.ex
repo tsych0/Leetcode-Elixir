@@ -1,4 +1,4 @@
-defmodule ProductExceptSelf do
+defmodule Arrays.ProductExceptSelf do
   @spec product_except_self(nums :: [integer]) :: [integer]
   def product_except_self(nums) do
     nums |> product(1) |> elem(0)

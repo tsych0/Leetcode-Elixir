@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/partition-list/
-defmodule Partition do
+defmodule LinkedList.Partition do
   @spec partition(head :: ListNode.t() | nil, x :: integer) :: ListNode.t() | nil
   def partition(head, x) do
     partition_([], [], head, x)

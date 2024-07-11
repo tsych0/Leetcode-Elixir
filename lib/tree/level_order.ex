@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/binary-tree-level-order-traversal/
 # https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-defmodule LevelOrder do
+defmodule Tree.LevelOrder do
   @spec level_order(root :: TreeNode.t() | nil) :: [[integer]]
   def level_order(nil), do: []
 

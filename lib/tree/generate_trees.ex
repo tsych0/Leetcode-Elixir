@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/unique-binary-search-trees-ii/
-defmodule GenerateTrees do
+defmodule Tree.GenerateTrees do
   @spec generate_trees(n :: integer) :: [TreeNode.t() | nil]
   def generate_trees(n) do
     gen_trees(1, n)

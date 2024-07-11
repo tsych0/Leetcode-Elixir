@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
-defmodule BuildTreeInPost do
+defmodule Tree.BuildTreeInPost do
   @spec build_tree(inorder :: [integer], postorder :: [integer]) :: TreeNode.t() | nil
   def build_tree([], []), do: nil
 

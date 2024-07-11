@@ -1,4 +1,5 @@
-defmodule SortedListToBst do
+# https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+defmodule LinkedList.SortedListToBst do
   @spec sorted_list_to_bst(head :: ListNode.t() | nil) :: TreeNode.t() | nil
   def sorted_list_to_bst(head) do
     n = length_ll(head)
