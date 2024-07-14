@@ -1,6 +1,5 @@
 defmodule Leetcode do
-  alias Graphs.CourseSchedule
-  # alias Tree.BuildTreeInMarkers
+  alias Graphs.FindCheapestPrice
   use Application
 
   def start(_type, _args) do
@@ -9,9 +8,20 @@ defmodule Leetcode do
   end
 
   def main() do
-    # BuildTreePreIn.build_tree([3, 9, 20, 15, 7], [9, 3, 15, 20, 7])
-    # BuildTreeInMarkers.build_tree([3, 9, 20, nil, nil, 15, 7])
-    # |> IO.inspect()
-    CourseSchedule.find_order(4, [[1, 0], [2, 0], [3, 1], [3, 2]]) |> IO.inspect()
+    # FindCheapestPrice.find_cheapest_price(
+    #   4,
+    #   [[0, 1, 1], [0, 2, 5], [1, 2, 1], [2, 3, 1]],
+    #   0,
+    #   3,
+    #   1
+    # )
+    FindCheapestPrice.find_cheapest_price(
+      5,
+      [[0, 1, 5], [1, 2, 5], [0, 3, 2], [3, 1, 2], [1, 4, 1], [4, 2, 1]],
+      0,
+      2,
+      2
+    )
+    |> IO.inspect()
   end
 end
